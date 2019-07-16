@@ -3,7 +3,7 @@
 
 ## RUN
 ```
-$ docker run -v /Books/:~/Downloads/ gari123/safaribook
+$ docker run -v /Downloads:/Books/ gari123/safaribook
 usage: safaribooks.py [--cred <EMAIL:PASS>] [--no-cookies] [--no-kindle]
                       [--preserve-log] [--help]
                       <BOOK ID>
